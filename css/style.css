@@ -38,27 +38,66 @@ img#date{
 	margin: auto;
 }
 
+/*wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww*/
 #content ul li{
 	display: inline-block;
 	width: 25%;
 	list-style-type : none; 
 	height: 60%;
 }
-#mapform ul{
-	display: inline-block;
 
+
+
+/*wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww*/
+#mapXform form{
+	
 }
-#mapform ul li{
-	width: 50%;
-	display: inline-block;
+#map{
+	width: 49%;
+}
+form{
+	width: 49%;
+	border-left: solid; 
+	color: Silver;
+}
+#mapXform {
+	width: 100%;
+	
 }
 
+#map,form{
+display: inline-block;
+}/*
+#form{
+	width: 49%;
+}*/
+#mapXform {
+	/*width: 49%;*/
+	
+}
 
+/*
 #mapform form{
 	width: 50%
 
+}*/
+
+
+/*wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww*/
+
+footer p{
+	text-align: right;
+	margin-right: 2%;
+
+	
+
 }
-#nom {
-	background-color: yellow;
-	float: right;
+footer {
+	border-top: solid; 
+	color: Silver;
 }
+/*
+
+#content {
+	display: inline-block;
+}*/

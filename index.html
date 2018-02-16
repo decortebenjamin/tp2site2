@@ -24,7 +24,7 @@
 </head>
 <body>	
 
-	<header>
+	<header> <!--xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx HEADER xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
 
 		<nav>
 			<ul>
@@ -32,7 +32,7 @@
 				<li><a href="#">Line Up 2018</a></li>
 				<li><a href="#">Qui sommes nous ?</a></li>
 				<li><a href="#">Contact</a></li>
-				<input type="text" id="rechercher" placeholder="Rechercher" />
+				<input type="search"  placeholder="Rechercher" />
 			</ul>
 		</nav>
 		<div id="logo">
@@ -40,6 +40,8 @@
 		</div>
 
 	</header>
+
+	<!--xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Contenu xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
 	<div id="content">
 		<img id="date" src="images/date.png" width="55%"  alt=""  />
 		<h1> Bienvenue sur le site de réservation du Mysteryland </h1>
@@ -51,25 +53,45 @@
 			<li><h2>Aftermovie 2017</h2><img src="images/aftermovie.jpg"  alt=""><p>Revivez le Mysteryland 2017</p><a href="#">En savoir plus..</a></li><li><h2>À savoir</h2><img src="images/voyage.jpg"  alt=""><p>Voici les informations à savoir avant de réserver le voyage..</p><a href="#">En savoir plus..</a></li><li><h2>Line up 2018</h2><img src="images/lineup.jpg" alt=""><p>Découvrez le line up complet et les headliners..</p><a href="#">En savoir plus..</a></li><li><h2>Show spécial 25 ans</h2><img src="images/25ans.jpg" alt=""><p>Pour l'édition des 25 ans du Mysteryland, ID&T on prévu un grand show ..</p><a href="#">En savoir plus..</a></li>
 
 		</ul>
-
-		<div id="mapform"> 
-			<ul>
-				<li><iframe src="https://www.google.com/maps/d/embed?mid=1O-xEmXjXKRSzSaDcmHv9iESp9-8&hl=en_US" width="640" height="480"></iframe>
-				</li>
-				<li>
+		<!--xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx DIV MAP X FORM xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
+		<!--xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx DIV MAP X FORM xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
+		<div id="mapXform"> 
+		<!--xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx MAP xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
+				<div id="map">
+		 <iframe src="https://www.google.com/maps/d/embed?mid=1O-xEmXjXKRSzSaDcmHv9iESp9-8&hl=en_US" width="640" height="480"></iframe>
+		 </div>
+		<!--xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx FORM xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
+				
+				
 					<form>
-						<label for="prenom"></label>
+						<p><label for="prenom">Prenom</label>
 	      				<input type="text" id="prenom" placeholder="Prenom" />
-	      				<label for="nom"></label>
+	      				<label for="nom">Nom</label>
 	      				<input type="text" id="nom" placeholder="Nom" />
-	      				<label for="date"></label>
+	      			</p>
+	      			<p>
+	      				<label for="date">Date de naissance</label>
 	      				<input type="date" id="date" placeholder="Date de naissance" />
-	      				<label for="villeN"></label>
-	      				  <input type="text" id="villeN" placeholder="Ville de naissance" />
-					</form>
-				</li>
-			</ul>
+	      				<label for="villeN">Ville de naissance</label>
+	      				<input type="text" id="villeN" placeholder="Ville de naissance"/>
+	      			</p>
+	      				<label for="mail">Mail</label>
+	      				<input type="mail" id="mail" placeholder="Votremail@mail.fr" />
+
+	      				<button type="submit">Valider</button>
+					</form>		
+				
+			
 		</div>
+		<!--xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx FOOTER xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
+		<!--xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx FOOTER xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
+
+		<footer>
+			<p>Benjamin Decorte TPC</p>
+			<p>Réalisé dans le cadre du module M4105</p>
+
+
+		</footer>
 	</div>
 </body>
 </html>
