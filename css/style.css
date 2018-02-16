@@ -1,0 +1,64 @@
+nav ul li a{
+	color: White;
+}
+
+nav ul li { 
+display : inline;
+padding : 0 0.5em; /* Pour espacer les boutons entre eux */
+}
+nav ul{
+list-style-type : none; 
+}
+header {
+	/*background-color: #009989;*/
+	/*margin: 5px;*/
+
+}
+header ul {
+	display: inline-block;
+	float: right;
+	margin-right: 5% 
+}
+#logo {
+	width: 50%;
+	height: 50%
+}
+
+body{
+	margin: 0%;
+	padding: 0%;
+	/*background-color:#05668D;	*/
+	background-image: linear-gradient(seagreen,darkgreen);
+
+}
+img#date{
+	display: block;
+	text-align: center;
+	width: 25%;
+	margin: auto;
+}
+
+#content ul li{
+	display: inline-block;
+	width: 25%;
+	list-style-type : none; 
+	height: 60%;
+}
+#mapform ul{
+	display: inline-block;
+
+}
+#mapform ul li{
+	width: 50%;
+	display: inline-block;
+}
+
+
+#mapform form{
+	width: 50%
+
+}
+#nom {
+	background-color: yellow;
+	float: right;
+}
