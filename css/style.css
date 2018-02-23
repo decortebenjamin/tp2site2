@@ -1,3 +1,24 @@
+/*@font-face
+{
+    font-family: taFont;
+    src: url(fonts/taFont.ttf);
+}
+ 
+p
+{
+   font-family: taFont;
+}
+
+*/
+*{
+font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+font-size: 13px;
+}
+/**-----------------------------------------*/
+
+
+
+
 nav ul li a{
 	color: White;
 }
@@ -38,33 +59,67 @@ img#date{
 	margin: auto;
 }
 
-/*wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww*/
-#content ul li{
+/*wwwwwwwwwwwwwwwwwwwwwww 4 images wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww*/
+#content ul #aftermovie, #asavoir, #lineup, #show{
 	display: inline-block;
-	width: 25%;
+	width: 24%;
 	list-style-type : none; 
 	height: 60%;
 	vertical-align:top;
+	padding-left:0px;
+	text-align: justify;
+
 }
 
+#content ul li #aftermovie2, #asavoir2, #lineup2, #show2{
+	width: 95%;
+	margin:auto;
+}
 
+#content ul li h2,ul li img,ul li p{
 
+	text-align: center;
+/*	background-color: yellow; */
+
+}
+
+#content ul li img{
+
+	width:100%;
+	height:100%;
+
+}
+	
+
+#aftermovie #aftermovie2 img{
+	height: 5%;
+
+}
 /*wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww*/
 #map{
 	width: 49%;
 }
 form{
-	width: 49%;
+	width: 48%;
 	border-left: solid; 
 	color: Silver;
 	height:100%;
 	padding-left: 20px;
+	padding-bottom: 20px;
+	text-align: left;
 }
+
 #mapXform {
 	width: 100%;
+	text-align: center;
 	
 }
 
+#mapXform form #prenom{
+	margin-right: 85px;
+	margin-left: 65px;
+	width: 155px;
+}
 #map,form{
 display: inline-block;
 vertical-align:top;
@@ -99,8 +154,17 @@ footer {
 	border-top: solid; 
 	color: Silver;
 }
-/*
 
-#content {
-	display: inline-block;
+/*
+#content h1,p {
+	text-align: center ;
+
+}
+
+#content ul p{
+	text-align: justify;
+	padding: 10px;
 }*/
+
+
+
