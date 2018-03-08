@@ -13,6 +13,7 @@ p
 *{
 font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
 font-size: 13px;
+
 }
 /**-----------------------------------------*/
 
@@ -44,12 +45,33 @@ header ul {
 	width: 50%;
 	height: 50%
 }
+#gif{ 
+	margin-top: 2.5%;
+	margin-bottom: 2.5%;
+	text-align: center;
+	width: 100%;
+}
+#reserv{
 
+	margin-left:2.5%; 
+	margin-right: 2.5%;
+
+}
+#reserv p{
+text-align: justify;
+
+
+}
+#reserv h1{
+
+	font-size: 25px;
+}
 body{
 	margin: 0%;
 	padding: 0%;
-	/*background-color:#05668D;	*/
-	background-image: linear-gradient(seagreen,darkgreen);
+/*	background-color:lightblue;	*/
+	/*background-image: linear-gradient(seagreen,darkcyan);*/
+	background-image: linear-gradient(to bottom, #009540 0%,#04baee 50%,#004080 100%);
 
 }
 img#date{
@@ -57,21 +79,22 @@ img#date{
 	text-align: center;
 	width: 25%;
 	margin: auto;
+	border: solid;
 }
 
 /*wwwwwwwwwwwwwwwwwwwwwww 4 images wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww*/
-#content ul #aftermovie, #asavoir, #lineup, #show{
+#content ul  #asavoir, #aftermovie, #show, #lineup {
 	display: inline-block;
-	width: 24%;
+	width:24%;
 	list-style-type : none; 
-	height: 60%;
+	/*height: 60%;*/
 	vertical-align:top;
 	padding-left:0px;
 	text-align: justify;
 
 }
 
-#content ul li #aftermovie2, #asavoir2, #lineup2, #show2{
+#content ul li #asavoir2, #aftermovie2,  #show2, #lineup2{
 	width: 95%;
 	margin:auto;
 }
@@ -128,13 +151,19 @@ vertical-align:top;
 #mapXform form #msg{
 	width: 500px;
 	height: 250px;
+	margin-left: 75px;
 }
 
 #mapXform form #button{
 	border-style: outset;
+	margin-left:300px;
 }
 #mapXform form #mail{
 	width: 460px;
+	margin-left: 25px;
+}
+#mapXform form #photo{
+	margin-left: 50px;
 }
 /*
 #mapXform form #nom,#villeN{
